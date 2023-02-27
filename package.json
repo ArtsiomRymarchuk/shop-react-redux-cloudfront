@@ -37,12 +37,14 @@
     "react-dom": "^18.2.0",
     "react-query": "^3.39.1",
     "react-router-dom": "^6.3.0",
+    "serverless-single-page-app-plugin": "^1.0.4",
     "yup": "^0.32.11"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^14.2.1",
+    "@types/node": "^18.11.17",
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.5",
@@ -69,5 +71,17 @@
   },
   "engines": {
     "node": ">=14.0.0"
-  }
+  },
+  "description": "CloudX: AWS Practitioner for JS",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtsiomRymarchuk/shop-react-redux-cloudfront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArtsiomRymarchuk/shop-react-redux-cloudfront/issues"
+  },
+  "homepage": "https://github.com/ArtsiomRymarchuk/shop-react-redux-cloudfront#readme"
 }
